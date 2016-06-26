@@ -15,6 +15,13 @@
 		0468A3DA1D180C880028D9EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0468A3D81D180C880028D9EA /* LaunchScreen.storyboard */; };
 		0468A3E51D180C880028D9EA /* ShopCartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A3E41D180C880028D9EA /* ShopCartTests.m */; };
 		0468A3F01D180C880028D9EA /* ShopCartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A3EF1D180C880028D9EA /* ShopCartUITests.m */; };
+		0468A4021D1822750028D9EA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A4011D1822750028D9EA /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0468A4051D1822AA0028D9EA /* ShopCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A4041D1822AA0028D9EA /* ShopCartViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0468A40A1D1825B70028D9EA /* ShopCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A4091D1825B70028D9EA /* ShopCartCell.m */; settings = {ASSET_TAGS = (); }; };
+		0468A40F1D18AC390028D9EA /* SettlementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A40E1D18AC390028D9EA /* SettlementView.m */; settings = {ASSET_TAGS = (); }; };
+		0473AF671D1B5B5E008DD2F2 /* GoodsInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473AF661D1B5B5E008DD2F2 /* GoodsInfoModel.m */; settings = {ASSET_TAGS = (); }; };
+		047487221D1CB48800F06E9A /* StatementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047487211D1CB48800F06E9A /* StatementViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A69AB5CC423277F907530D9F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A58A577A374DC91139098240 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,22 @@
 		0468A3EB1D180C880028D9EA /* ShopCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0468A3EF1D180C880028D9EA /* ShopCartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCartUITests.m; sourceTree = "<group>"; };
 		0468A3F11D180C880028D9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0468A4001D1822750028D9EA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0468A4011D1822750028D9EA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0468A4031D1822AA0028D9EA /* ShopCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCartViewController.h; sourceTree = "<group>"; };
+		0468A4041D1822AA0028D9EA /* ShopCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCartViewController.m; sourceTree = "<group>"; };
+		0468A4081D1825B70028D9EA /* ShopCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCartCell.h; sourceTree = "<group>"; };
+		0468A4091D1825B70028D9EA /* ShopCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCartCell.m; sourceTree = "<group>"; };
+		0468A40C1D18351B0028D9EA /* SC.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SC.pch; sourceTree = "<group>"; };
+		0468A40D1D18AC390028D9EA /* SettlementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettlementView.h; sourceTree = "<group>"; };
+		0468A40E1D18AC390028D9EA /* SettlementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettlementView.m; sourceTree = "<group>"; };
+		0473AF651D1B5B5E008DD2F2 /* GoodsInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsInfoModel.h; sourceTree = "<group>"; };
+		0473AF661D1B5B5E008DD2F2 /* GoodsInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsInfoModel.m; sourceTree = "<group>"; };
+		047487201D1CB48800F06E9A /* StatementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatementViewController.h; sourceTree = "<group>"; };
+		047487211D1CB48800F06E9A /* StatementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatementViewController.m; sourceTree = "<group>"; };
+		A58A577A374DC91139098240 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9649E3531D106119A05E849 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C7549C473DD46B644AEF8ED9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69AB5CC423277F907530D9F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,8 @@
 				0468A3E31D180C880028D9EA /* ShopCartTests */,
 				0468A3EE1D180C880028D9EA /* ShopCartUITests */,
 				0468A3C81D180C880028D9EA /* Products */,
+				54C90DAA17FE269CDE2DCE87 /* Pods */,
+				729F606C280355650240B42E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +127,8 @@
 		0468A3C91D180C880028D9EA /* ShopCart */ = {
 			isa = PBXGroup;
 			children = (
+				0468A3FE1D18222F0028D9EA /* ShopCart */,
+				0468A3FF1D18224E0028D9EA /* Main */,
 				0468A3CD1D180C880028D9EA /* AppDelegate.h */,
 				0468A3CE1D180C880028D9EA /* AppDelegate.m */,
 				0468A3D01D180C880028D9EA /* ViewController.h */,
@@ -136,8 +164,84 @@
 			children = (
 				0468A3EF1D180C880028D9EA /* ShopCartUITests.m */,
 				0468A3F11D180C880028D9EA /* Info.plist */,
+				0468A40C1D18351B0028D9EA /* SC.pch */,
 			);
 			path = ShopCartUITests;
+			sourceTree = "<group>";
+		};
+		0468A3FE1D18222F0028D9EA /* ShopCart */ = {
+			isa = PBXGroup;
+			children = (
+				0473AF641D1B5B3F008DD2F2 /* m */,
+				0468A40B1D1825D50028D9EA /* v */,
+				0468A4071D18250B0028D9EA /* c */,
+			);
+			name = ShopCart;
+			sourceTree = "<group>";
+		};
+		0468A3FF1D18224E0028D9EA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0468A4061D1824FD0028D9EA /* c */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		0468A4061D1824FD0028D9EA /* c */ = {
+			isa = PBXGroup;
+			children = (
+				0468A4001D1822750028D9EA /* MainViewController.h */,
+				0468A4011D1822750028D9EA /* MainViewController.m */,
+			);
+			name = c;
+			sourceTree = "<group>";
+		};
+		0468A4071D18250B0028D9EA /* c */ = {
+			isa = PBXGroup;
+			children = (
+				0468A4031D1822AA0028D9EA /* ShopCartViewController.h */,
+				0468A4041D1822AA0028D9EA /* ShopCartViewController.m */,
+				047487201D1CB48800F06E9A /* StatementViewController.h */,
+				047487211D1CB48800F06E9A /* StatementViewController.m */,
+			);
+			name = c;
+			sourceTree = "<group>";
+		};
+		0468A40B1D1825D50028D9EA /* v */ = {
+			isa = PBXGroup;
+			children = (
+				0468A4081D1825B70028D9EA /* ShopCartCell.h */,
+				0468A4091D1825B70028D9EA /* ShopCartCell.m */,
+				0468A40D1D18AC390028D9EA /* SettlementView.h */,
+				0468A40E1D18AC390028D9EA /* SettlementView.m */,
+			);
+			name = v;
+			sourceTree = "<group>";
+		};
+		0473AF641D1B5B3F008DD2F2 /* m */ = {
+			isa = PBXGroup;
+			children = (
+				0473AF651D1B5B5E008DD2F2 /* GoodsInfoModel.h */,
+				0473AF661D1B5B5E008DD2F2 /* GoodsInfoModel.m */,
+			);
+			name = m;
+			sourceTree = "<group>";
+		};
+		54C90DAA17FE269CDE2DCE87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7549C473DD46B644AEF8ED9 /* Pods.debug.xcconfig */,
+				B9649E3531D106119A05E849 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		729F606C280355650240B42E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A58A577A374DC91139098240 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0468A3F41D180C880028D9EA /* Build configuration list for PBXNativeTarget "ShopCart" */;
 			buildPhases = (
+				67FFB1E812714567C78F8218 /* Check Pods Manifest.lock */,
 				0468A3C31D180C880028D9EA /* Sources */,
 				0468A3C41D180C880028D9EA /* Frameworks */,
 				0468A3C51D180C880028D9EA /* Resources */,
+				181C6FF1F2AC559CE54FC460 /* Embed Pods Frameworks */,
+				AC854E0E9FABE002162EFE9B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +375,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		181C6FF1F2AC559CE54FC460 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67FFB1E812714567C78F8218 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC854E0E9FABE002162EFE9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0468A3C31D180C880028D9EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,7 +430,13 @@
 			files = (
 				0468A3D21D180C880028D9EA /* ViewController.m in Sources */,
 				0468A3CF1D180C880028D9EA /* AppDelegate.m in Sources */,
+				0468A40F1D18AC390028D9EA /* SettlementView.m in Sources */,
+				0468A4051D1822AA0028D9EA /* ShopCartViewController.m in Sources */,
+				0473AF671D1B5B5E008DD2F2 /* GoodsInfoModel.m in Sources */,
 				0468A3CC1D180C880028D9EA /* main.m in Sources */,
+				047487221D1CB48800F06E9A /* StatementViewController.m in Sources */,
+				0468A4021D1822750028D9EA /* MainViewController.m in Sources */,
+				0468A40A1D1825B70028D9EA /* ShopCartCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +575,7 @@
 		};
 		0468A3F51D180C880028D9EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7549C473DD46B644AEF8ED9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShopCart/Info.plist;
@@ -425,6 +587,7 @@
 		};
 		0468A3F61D180C880028D9EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9649E3531D106119A05E849 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShopCart/Info.plist;
@@ -501,6 +664,7 @@
 				0468A3F61D180C880028D9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0468A3F71D180C880028D9EA /* Build configuration list for PBXNativeTarget "ShopCartTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +673,7 @@
 				0468A3F91D180C880028D9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0468A3FA1D180C880028D9EA /* Build configuration list for PBXNativeTarget "ShopCartUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +682,7 @@
 				0468A3FC1D180C880028D9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+platform:ios, '6.0'   
+pod 'AFNetworking', '~>2.5.4'
+pod 'Masonry', '~> 1.0.1'
+pod 'Reachability', '~> 3.2'
+pod 'SDWebImage', '~> 3.7.2'
+pod 'MBProgressHUD', '~> 0.9.2'
