@@ -92,7 +92,6 @@
         make.height.mas_equalTo(30);
         make.width.mas_equalTo(100);
     }];
-    
 }
 
 /*

@@ -10,33 +10,18 @@
 
 @implementation GoodsInfoModel
 -(instancetype)initWithDict:(NSDictionary *)dict
-
 {
-    
     if (self = [super init])
-        
     {
-        
         self.imageName = dict[@"imageName"];
-        
         self.goodsTitle = dict[@"goodsTitle"];
-        
         self.goodsPrice = dict[@"goodsPrice"];
-        
         self.goodsNum = [dict[@"goodsNum"]integerValue];
-        
         self.selectState = [dict[@"selectState"]boolValue];
-        /*
-         @property(assign,nonatomic)int allNum;
-         
-         @property(assign,nonatomic)int remainedNum;
-         */
         self.allNum=[dict[@"allNum"]integerValue];
-        self.remainedNum=[dict[@"remainedNum"]integerValue];
-        
+        self.remainedNum=[dict[@"remainedNum"]integerValue];        
     }
     
     return  self;
-    
 }
 @end

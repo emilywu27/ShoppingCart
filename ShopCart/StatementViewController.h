@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface StatementViewController : UIViewController
-@property(nonatomic,assign)NSInteger price;
+@property(nonatomic,assign)NSInteger price;//总价
 @end
